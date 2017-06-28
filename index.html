@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="overlay.core">
+    <head>
+        <title>
+            OverLay POC
+        </title>
+        <!--<script src="/node_modules/angular/angular.js"></script>
+        <script src="src/core.js"></script>
+        <script src="src/child.js"></script>-->
+    </head>
+    <body>
+        <div id="OverLay_Div_On_Layout_Page">
+            <h1>Hello World!</h1>
+            <div id="Child_Page_Partial">
+                <h3>Child should be below</h3>
+                <div ng-include="./views/child.html ">
+                <div ng-view></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

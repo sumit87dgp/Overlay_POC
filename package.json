@@ -1,0 +1,21 @@
+{
+  "name": "overlay_poc",
+  "version": "1.0.0",
+  "description": "Resuable Overlay ",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.24"
+  },
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sumit Saha",
+  "license": "ISC"
+}
